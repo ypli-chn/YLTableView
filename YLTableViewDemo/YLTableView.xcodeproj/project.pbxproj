@@ -14,8 +14,6 @@
 		F2B6F0D61DA40D9F005E682A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B6F0D51DA40D9F005E682A /* Assets.xcassets */; };
 		F2B6F0D91DA40D9F005E682A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B6F0D71DA40D9F005E682A /* LaunchScreen.storyboard */; };
 		F2B6F0E41DA40D9F005E682A /* YLTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B6F0E31DA40D9F005E682A /* YLTableViewTests.m */; };
-		F2B6F0F11DA40DBB005E682A /* YLTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B6F0F01DA40DBB005E682A /* YLTableView.m */; };
-		F2B6F0F71DA40E19005E682A /* YLTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B6F0F61DA40E19005E682A /* YLTableViewSection.m */; };
 		F2B6F1091DA4D9D1005E682A /* AAAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B6F1081DA4D9D1005E682A /* AAAViewController.m */; };
 		F2B6F10D1DA4DA93005E682A /* AAACell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B6F10C1DA4DA93005E682A /* AAACell.m */; };
 		F2B6F1101DA4DB05005E682A /* AAAItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B6F10F1DA4DB05005E682A /* AAAItemViewModel.m */; };
@@ -25,6 +23,8 @@
 		F2B6F11E1DA51FF4005E682A /* BBBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B6F11C1DA51FF4005E682A /* BBBCell.m */; };
 		F2B6F11F1DA51FF4005E682A /* BBBCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2B6F11D1DA51FF4005E682A /* BBBCell.xib */; };
 		F2B6F1221DA52017005E682A /* BBBItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B6F1211DA52017005E682A /* BBBItemViewModel.m */; };
+		F2F2FB451E23B72300568EF9 /* YLTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F2FB421E23B72300568EF9 /* YLTableView.m */; };
+		F2F2FB461E23B72300568EF9 /* YLTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F2FB441E23B72300568EF9 /* YLTableViewSection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,10 +51,6 @@
 		F2B6F0DF1DA40D9F005E682A /* YLTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B6F0E31DA40D9F005E682A /* YLTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLTableViewTests.m; sourceTree = "<group>"; };
 		F2B6F0E51DA40D9F005E682A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2B6F0EF1DA40DBB005E682A /* YLTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTableView.h; sourceTree = "<group>"; };
-		F2B6F0F01DA40DBB005E682A /* YLTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTableView.m; sourceTree = "<group>"; };
-		F2B6F0F51DA40E19005E682A /* YLTableViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTableViewSection.h; sourceTree = "<group>"; };
-		F2B6F0F61DA40E19005E682A /* YLTableViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTableViewSection.m; sourceTree = "<group>"; };
 		F2B6F1071DA4D9D1005E682A /* AAAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAAViewController.h; sourceTree = "<group>"; };
 		F2B6F1081DA4D9D1005E682A /* AAAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAAViewController.m; sourceTree = "<group>"; };
 		F2B6F10B1DA4DA93005E682A /* AAACell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AAACell.h; path = Views/AAACell.h; sourceTree = "<group>"; };
@@ -72,6 +68,10 @@
 		F2B6F11D1DA51FF4005E682A /* BBBCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BBBCell.xib; path = Views/BBBCell.xib; sourceTree = "<group>"; };
 		F2B6F1201DA52017005E682A /* BBBItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBBItemViewModel.h; sourceTree = "<group>"; };
 		F2B6F1211DA52017005E682A /* BBBItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBBItemViewModel.m; sourceTree = "<group>"; };
+		F2F2FB411E23B72300568EF9 /* YLTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTableView.h; sourceTree = "<group>"; };
+		F2F2FB421E23B72300568EF9 /* YLTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTableView.m; sourceTree = "<group>"; };
+		F2F2FB431E23B72300568EF9 /* YLTableViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTableViewSection.h; sourceTree = "<group>"; };
+		F2F2FB441E23B72300568EF9 /* YLTableViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTableViewSection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +113,7 @@
 		F2B6F0C81DA40D9F005E682A /* YLTableView */ = {
 			isa = PBXGroup;
 			children = (
-				F2B6F0EE1DA40DB0005E682A /* YLTableView */,
+				F2F2FB401E23B72300568EF9 /* YLTableView */,
 				F2B6F0FF1DA4D9AD005E682A /* ModuleA */,
 				F2B6F1031DA4D9AD005E682A /* ModuleB */,
 				F2B6F0CC1DA40D9F005E682A /* AppDelegate.h */,
@@ -144,18 +144,6 @@
 				F2B6F0E51DA40D9F005E682A /* Info.plist */,
 			);
 			path = YLTableViewTests;
-			sourceTree = "<group>";
-		};
-		F2B6F0EE1DA40DB0005E682A /* YLTableView */ = {
-			isa = PBXGroup;
-			children = (
-				F2B6F0EF1DA40DBB005E682A /* YLTableView.h */,
-				F2B6F0F01DA40DBB005E682A /* YLTableView.m */,
-				F2B6F0F51DA40E19005E682A /* YLTableViewSection.h */,
-				F2B6F0F61DA40E19005E682A /* YLTableViewSection.m */,
-			);
-			name = YLTableView;
-			path = ../../YLTableViewManager/YLTableViewManager/YLTableView;
 			sourceTree = "<group>";
 		};
 		F2B6F0FF1DA4D9AD005E682A /* ModuleA */ = {
@@ -251,6 +239,18 @@
 				F2B6F11D1DA51FF4005E682A /* BBBCell.xib */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		F2F2FB401E23B72300568EF9 /* YLTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F2F2FB411E23B72300568EF9 /* YLTableView.h */,
+				F2F2FB421E23B72300568EF9 /* YLTableView.m */,
+				F2F2FB431E23B72300568EF9 /* YLTableViewSection.h */,
+				F2F2FB441E23B72300568EF9 /* YLTableViewSection.m */,
+			);
+			name = YLTableView;
+			path = ../../YLTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,16 +358,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2B6F0F71DA40E19005E682A /* YLTableViewSection.m in Sources */,
 				F2B6F10D1DA4DA93005E682A /* AAACell.m in Sources */,
 				F2B6F11E1DA51FF4005E682A /* BBBCell.m in Sources */,
-				F2B6F0F11DA40DBB005E682A /* YLTableView.m in Sources */,
 				F2B6F1101DA4DB05005E682A /* AAAItemViewModel.m in Sources */,
+				F2F2FB461E23B72300568EF9 /* YLTableViewSection.m in Sources */,
 				F2B6F0D11DA40D9F005E682A /* ViewController.m in Sources */,
 				F2B6F11A1DA51FCF005E682A /* BBBSection.m in Sources */,
 				F2B6F1171DA51FBF005E682A /* BBBViewController.m in Sources */,
 				F2B6F0CE1DA40D9F005E682A /* AppDelegate.m in Sources */,
 				F2B6F1091DA4D9D1005E682A /* AAAViewController.m in Sources */,
+				F2F2FB451E23B72300568EF9 /* YLTableView.m in Sources */,
 				F2B6F1221DA52017005E682A /* BBBItemViewModel.m in Sources */,
 				F2B6F0CB1DA40D9F005E682A /* main.m in Sources */,
 				F2B6F1131DA4DC12005E682A /* AAASection.m in Sources */,
@@ -571,6 +571,7 @@
 				F2B6F0EA1DA40D9F005E682A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2B6F0EB1DA40D9F005E682A /* Build configuration list for PBXNativeTarget "YLTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -579,6 +580,7 @@
 				F2B6F0ED1DA40D9F005E682A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
